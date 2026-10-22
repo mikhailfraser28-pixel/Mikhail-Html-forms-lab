@@ -1,0 +1,72 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #F7F7F7;
+    color: #888;
+}
+
+.contact-form {
+    width: 380px;
+    margin: 80px auto;
+    padding: 20px 40px;
+    background-color: #F7F7F7;
+    border: 1px solid #ddd;
+}
+
+h1 {
+    margin: 0;
+    color: #888;
+    font-size: 25px;
+}
+
+h4 {
+    margin: 0;
+    color: #888;
+    font-size: 12px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 10px 0 15px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 65px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 270px;
+    box-sizing: border-box;
+    padding: 7px;
+    border: 1px solid #ccc;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #888;
+}
+
+textarea {
+    height: 85px;
+    resize: none;
+}
+
+input[type="submit"] {
+    width: 172px;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    background-color: #E27575;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+}

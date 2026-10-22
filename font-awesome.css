@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    background: #927057;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    background: #d5c395;
+}
+
+h1 {
+    text-align: center;
+    color: #927057;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    width: 80%;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-container i {
+    position: absolute;
+    left: 12px;
+    top: 13px;
+    color: #927057;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #927057;
+    color: white;
+    font-size: 18px;
+}
